@@ -265,3 +265,26 @@ text-shadow:0px -1px 1px rgba(000,000,000,0.2), 0px 1px 0px rgba(255,255,255,0.3
 #notas_relacionadas article,
 #te_puede_interesar article{display: inline-block; height: auto; margin:0 auto; padding: 0 5px; text-align: left;}
 }
+
+/*----------------PARTICIPA---------------*/
+.lateral_cuatro{border: solid 2px #2B87C8; margin:0 auto; padding:0;}
+.lateral_cuatro div{text-align: center; width:100%;}
+.lateral_cuatro h2{margin:0 auto;}
+.lateral_cuatro h3{color:#2B87C8; margin:5px 0;}
+.lateral_cuatro ul{color: #626262; margin:0 auto; text-align: left; list-style: none; padding: 0 10px;}
+.lateral_cuatro li{padding: 5px 0;}
+
+.celeste {
+    background-color: #2B87C8;
+}
+
+#lateral h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    color: #fff;
+    padding: 2px 0;
+    font-family: 'HelveticaNeue-Bold';
+    margin: 0 auto;
+}
