@@ -1,0 +1,62 @@
+.fixed-ad {
+    text-align: center;
+    position: fixed;
+width: 100vw;
+    bottom: 60px;
+    z-index: 9976;
+}
+.ad-content{
+     
+    width: 100%;
+    background: #e2e2e2;
+  /* position: absolute;
+  /* bottom: -100%;*/
+    
+}
+.fixed-ad .close{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    padding: 5px;
+    z-index: 9960;
+    background: #9a989936;
+    border-radius: 35px;
+}
+#ch-close {
+        position:absolute;
+        appearance:none;
+        cursor:pointer;
+        left:-100%;
+        top:-100%;
+        display: none;
+}
+.close img{
+ width: 20px;
+ height: 15px;
+}
+#ch-close + label {
+             cursor:pointer;
+       
+        color: #FFF;
+        text-align:center;
+        -webkit-font-smoothing: antialiased;
+        cursor: pointer;
+        transition:all 500ms ease;
+}
+#ch-close + label:after {
+        opacity: 1;
+           height: 250px;
+}
+#ch-close:checked ~ .ad-content {
+        opacity: 1;
+        height: 0px;
+}
+#ch-close:checked + label:after {
+        opacity: 0.5;
+        filter: brightness(0) invert(1);
+}
+#ch-close ~ .ad-content {
+       /*  opacity: 0;*/
+       /*height: 0px;*/
+}
+

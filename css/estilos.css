@@ -1,0 +1,255 @@
+
+
+
+
+a{text-decoration: none; color: black;}
+.h4seo {
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 21px;
+    
+}
+
+.etiqueta-seccion.etiqueta-seccion {
+    margin-bottom: 8px;
+    color: #0578cc;
+    background: #ececec;
+    padding: 2px 7px;
+    font-family: 'HelveticaNeue-Bold';
+    font-size: 13px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.fecha{
+    font-family: "Lucida Sans", sans-serif;;
+    font-size: 12px;
+    font-weight: 100;
+    float: right;
+}
+ /*
+a{text-decoration: none; color: black;}
+
+
+
+ 
+
+.ftv {
+   width: 100%;
+   height: 250px;
+}
+
+
+
+.h2seo{
+  font-family: "Lucida Sans", sans-serif; 
+  font-size: 36px;
+}
+
+.h3seo {
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: -1px;
+    color: #4a4c4a;
+    padding: 12px;
+    margin: 0px;
+}
+.h4seo {
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 21px;
+    
+}
+.h5seo {
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 16px;
+}
+
+.h6seo {
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 39px;
+}
+
+.mtul{margin-top: 5px;}
+.seccion{
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 22px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    color: white;
+    background: #ec0a0a;
+    border-radius: 15px;
+}
+.parra{
+    font-family: 'HelveticaNeue';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #4a4c4a;
+    margin: 0px;
+}
+.margen{
+    padding: 1px;
+    margin: 11px;
+}
+.tex-img{position: relative;
+    display: inline-block;
+  }
+
+  .texto-encima{
+    position: absolute;
+    top: -143px;
+    left: 10px;
+}
+
+.anchor-12{
+    color: white;
+    text-shadow: 0.1em 0.1em #333;
+}
+
+
+.mt526{
+    margin-top: 8px;
+}
+
+.hs{
+    width: 95%;
+    background-color: #fff;
+    border-top: 1px solid #e6e2e2;
+    margin-bottom: 10px;
+}
+
+.etiqueta-seccion.etiqueta-seccion {
+    margin-bottom: 8px;
+    color: #0578cc;
+    background: #ececec;
+    padding: 2px 7px;
+    font-family: 'HelveticaNeue-Bold';
+    font-size: 13px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.tout-timestamp {
+    font-size: 11px;
+    line-height: 1;
+    
+    white-space: nowrap;
+    letter-spacing: -0.24px;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+
+.leerpos{
+    float: right;
+    position: relative;
+    
+}
+
+.img-leer {
+    width: 35px;
+    padding-left: 9px;
+}
+.texto-centrado{display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 2px;
+   font-family: 'HelveticaNeue-Bold';
+
+}
+
+.fecha{
+    font-family: "Lucida Sans", sans-serif;;
+    font-size: 12px;
+    font-weight: 100;
+    float: right;
+}
+
+
+
+.hh2{
+    font-family: 'HelveticaNeue';
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #4a4c4a;
+    padding: 5px;
+    margin: 0px;
+}
+
+
+.hb2-h2{
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 19px;
+    margin-block-start: 11px;
+    margin-block-end: 11px;
+}
+.borde{
+  box-shadow: 1px 1px 1px 1px #F5F5F5;
+  padding:11px;}
+
+
+  .fecha-acomodo{
+    position: relative;
+    top: 1px;
+    right: 200px;
+}
+
+
+.etiqueta-bloque{
+    color: #716f6f;
+    padding: 2px 10px;
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 34px;
+}
+
+.img-icon{
+    width: 58px
+}
+
+.etiqueta-c{
+
+    color: #716f6f;
+    padding: 2px 10px;
+    font-family: Noway;
+    font-size: 25px;
+    font-weight: 900;
+    border-left: 6px solid #d40b0b;
+    background-color: #e8e8e8;
+}
+
+
+
+@media all and (max-width: 600px){
+.hmobile {
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 22px;
+    letter-spacing: -0.5px;
+    font-weight: 900;
+    color: #313030;
+}
+.parra {
+    font-family: 'HelveticaNeue';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    color: #4a4c4a;
+    margin: 0px;
+}
+
+.null{
+    line-height: 24px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+
+
+
+}
+
+*/

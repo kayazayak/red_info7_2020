@@ -1,0 +1,170 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "FiraSans-ExtraBold";
+  src: url("FiraSans-ExtraBold.eot"); /* IE9 Compat Modes */
+  src: url("FiraSans-ExtraBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("FiraSans-ExtraBold.otf") format("opentype"), /* Open Type Font */
+    url("FiraSans-ExtraBold.svg") format("svg"), /* Legacy iOS */
+    url("FiraSans-ExtraBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("FiraSans-ExtraBold.woff") format("woff"), /* Modern Browsers */
+    url("FiraSans-ExtraBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "WorkSans-Regular";
+  src: url("WorkSans-Regular.eot"); /* IE9 Compat Modes */
+  src: url("WorkSans-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("WorkSans-Regular.otf") format("opentype"), /* Open Type Font */
+    url("WorkSans-Regular.svg") format("svg"), /* Legacy iOS */
+    url("WorkSans-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("WorkSans-Regular.woff") format("woff"), /* Modern Browsers */
+    url("WorkSans-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("OpenSans-Bold.eot"); /* IE9 Compat Modes */
+  src: url("OpenSans-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("OpenSans-Bold.otf") format("opentype"), /* Open Type Font */
+    url("OpenSans-Bold.svg") format("svg"), /* Legacy iOS */
+    url("OpenSans-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("OpenSans-Bold.woff") format("woff"), /* Modern Browsers */
+    url("OpenSans-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OpenSans-BoldItalic";
+  src: url("OpenSans-BoldItalic.eot"); /* IE9 Compat Modes */
+  src: url("OpenSans-BoldItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("OpenSans-BoldItalic.otf") format("opentype"), /* Open Type Font */
+    url("OpenSans-BoldItalic.svg") format("svg"), /* Legacy iOS */
+    url("OpenSans-BoldItalic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("OpenSans-BoldItalic.woff") format("woff"), /* Modern Browsers */
+    url("OpenSans-BoldItalic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OpenSans-ExtraBold";
+  src: url("OpenSans-ExtraBold.eot"); /* IE9 Compat Modes */
+  src: url("OpenSans-ExtraBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("OpenSans-ExtraBold.otf") format("opentype"), /* Open Type Font */
+    url("OpenSans-ExtraBold.svg") format("svg"), /* Legacy iOS */
+    url("OpenSans-ExtraBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("OpenSans-ExtraBold.woff") format("woff"), /* Modern Browsers */
+    url("OpenSans-ExtraBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OpenSans-ExtraBoldItalic";
+  src: url("OpenSans-ExtraBoldItalic.eot"); /* IE9 Compat Modes */
+  src: url("OpenSans-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("OpenSans-ExtraBoldItalic.otf") format("opentype"), /* Open Type Font */
+    url("OpenSans-ExtraBoldItalic.svg") format("svg"), /* Legacy iOS */
+    url("OpenSans-ExtraBoldItalic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("OpenSans-ExtraBoldItalic.woff") format("woff"), /* Modern Browsers */
+    url("OpenSans-ExtraBoldItalic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OpenSans-Italic";
+  src: url("OpenSans-Italic.eot"); /* IE9 Compat Modes */
+  src: url("OpenSans-Italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("OpenSans-Italic.otf") format("opentype"), /* Open Type Font */
+    url("OpenSans-Italic.svg") format("svg"), /* Legacy iOS */
+    url("OpenSans-Italic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("OpenSans-Italic.woff") format("woff"), /* Modern Browsers */
+    url("OpenSans-Italic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("OpenSans-Light.eot"); /* IE9 Compat Modes */
+  src: url("OpenSans-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("OpenSans-Light.otf") format("opentype"), /* Open Type Font */
+    url("OpenSans-Light.svg") format("svg"), /* Legacy iOS */
+    url("OpenSans-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("OpenSans-Light.woff") format("woff"), /* Modern Browsers */
+    url("OpenSans-Light.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OpenSans-LightItalic";
+  src: url("OpenSans-LightItalic.eot"); /* IE9 Compat Modes */
+  src: url("OpenSans-LightItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("OpenSans-LightItalic.otf") format("opentype"), /* Open Type Font */
+    url("OpenSans-LightItalic.svg") format("svg"), /* Legacy iOS */
+    url("OpenSans-LightItalic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("OpenSans-LightItalic.woff") format("woff"), /* Modern Browsers */
+    url("OpenSans-LightItalic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("OpenSans-Regular.eot"); /* IE9 Compat Modes */
+  src: url("OpenSans-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("OpenSans-Regular.otf") format("opentype"), /* Open Type Font */
+    url("OpenSans-Regular.svg") format("svg"), /* Legacy iOS */
+    url("OpenSans-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("OpenSans-Regular.woff") format("woff"), /* Modern Browsers */
+    url("OpenSans-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("OpenSans-SemiBold.eot"); /* IE9 Compat Modes */
+  src: url("OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("OpenSans-SemiBold.otf") format("opentype"), /* Open Type Font */
+    url("OpenSans-SemiBold.svg") format("svg"), /* Legacy iOS */
+    url("OpenSans-SemiBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("OpenSans-SemiBold.woff") format("woff"), /* Modern Browsers */
+    url("OpenSans-SemiBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OpenSans-SemiBoldItalic";
+  src: url("OpenSans-SemiBoldItalic.eot"); /* IE9 Compat Modes */
+  src: url("OpenSans-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("OpenSans-SemiBoldItalic.otf") format("opentype"), /* Open Type Font */
+    url("OpenSans-SemiBoldItalic.svg") format("svg"), /* Legacy iOS */
+    url("OpenSans-SemiBoldItalic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("OpenSans-SemiBoldItalic.woff") format("woff"), /* Modern Browsers */
+    url("OpenSans-SemiBoldItalic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,53 @@
+.text-over-img-container{
+                position: relative;
+}
+.text-over-img{
+                position: absolute;
+                width: 100%;
+                height: 100%;  
+}
+.text-over-img .icon{
+                padding: 2%;
+                display: flex;
+}
+.text-over-img .icon img{
+                width: 50px;
+                height: auto;
+                margin-left: auto;
+                z-index: 970;
+                    opacity: 0.5;
+}
+.text-over-img .text{
+                padding: 5%;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                min-height: 20%;
+                font-family: "OpenSans-Bold";           
+                color: #ffffff;
+                line-height: 20px;
+                text-shadow: 3px 1px 4px black;
+                 font-size: 20px;
+                 background: linear-gradient(0deg,black,transparent);       
+}
+.text-over-img .text a{
+                   font-family: "OpenSans-Bold";           
+                color: #ffffff;
+                font-size: 20px;
+}  
+@media (min-width: 700px) {
+                .text-over-img .text a.big{
+                                font-size: 29px;
+                                line-height: 32px;
+                }
+                .text-over-img .text a{
+                 font-size: 15px;
+                }
+}
+.text-over-img .text a.medium{
+                 font-size: 25px;
+}
+.text-over-img .text a.small{
+                 font-size: 20px;
+}
+                

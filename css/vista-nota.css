@@ -1,0 +1,232 @@
+ *{box-sizing: border-box;font-size:16px;font-family: "WorkSans-Regular"; }
+
+
+
+
+ body{margin:0px;padding:0px;}
+ h1{margin:0px;padding:0px; justify-items: center;}
+.cancel{width: 0; box-sizing: 0;}
+
+
+
+
+#home{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px auto auto auto;
+  grid-gap:15px;
+  background: #f9f9f9;
+  min-width: 320px;
+}
+
+/*#header{
+  background: rgba(  10, 55, 125,1);
+background: -moz-linear-gradient(left, rgba(  10, 55, 125,1) 0%, rgba(16, 87, 197,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(10, 55, 125,1)), color-stop(100%, rgba( 16, 87, 197,1)));
+background: -webkit-linear-gradient(left, rgba( 10, 55, 125,1) 0%, rgba(  16, 87, 197,1) 100%);
+background: -o-linear-gradient(left, rgba(  10, 55, 125,1) 0%, rgba(  16, 87, 197,1) 100%);
+background: -ms-linear-gradient(left, rgba( 10, 55, 125,1) 0%, rgba(  16, 87, 197,1) 100%);
+background: linear-gradient(to right, rgba( 10, 55, 125,1) 0%, rgba(  16, 87, 197,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1464', endColorstr='#0071bc', GradientType=1 );
+  display:grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: 30px 60px 30px ;
+}*/
+
+#header{
+  background: rgba(  10, 55, 125,1);
+background: -moz-linear-gradient(left, rgba(  10, 55, 125,1) 0%, rgba(16, 87, 197,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(10, 55, 125,1)), color-stop(100%, rgba( 16, 87, 197,1)));
+background: -webkit-linear-gradient(left, rgba( 10, 55, 125,1) 0%, rgba(  16, 87, 197,1) 100%);
+background: -o-linear-gradient(left, rgba(  10, 55, 125,1) 0%, rgba(  16, 87, 197,1) 100%);
+background: -ms-linear-gradient(left, rgba( 10, 55, 125,1) 0%, rgba(  16, 87, 197,1) 100%);
+background: linear-gradient(to right, rgba( 10, 55, 125,1) 0%, rgba(  16, 87, 197,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1464', endColorstr='#0071bc', GradientType=1 );
+  display:grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: 30px 60px 30px ;
+}
+
+#home-h1{
+    grid-column: 1/5;
+    color: white;
+    font-size: 10px;
+    padding: 3px 3px 3px 9px;
+}
+
+/*Mofidica el Menu*/
+.full{
+
+ display: grid;
+ grid-column-start:1;
+ grid-column-end:9;
+ grid-row-start:1;
+ grid-row-end:2;
+ background: black;
+}
+.full2{
+
+ display: grid;
+   grid-template-columns: repeat(8,1fr);
+ grid-column-start:1;
+ grid-column-end:9;
+ grid-row-start:2;
+ grid-row-end:3;
+ background: url(http://aztecanoreste.com/julian/ejemplo/img/mapa.svg);
+ 
+}
+#header>*{
+ padding: 5px;
+}
+
+
+#fecha{
+  grid-column: 6/7;
+color:white;
+font-size: 10px;
+justify-self: end;
+ padding: 3px 9px 3px 3px;
+}
+
+
+#logo{
+  grid-column: 1/1;
+  width: 72px; 
+  margin-left:9px;
+}
+
+#buscar{
+  grid-column: 6/7;
+  width: 40px; 
+  margin:auto;
+}
+
+#tv{
+  grid-column: 7/8;
+  width: 40px; 
+  margin:auto;
+}
+
+#menu{
+  grid-column: 8/9;
+  width: 40px; 
+  margin:auto;
+}
+
+
+
+#nav{
+  grid-column: span 8;
+  background: #f1f1f1;
+}
+
+.w-i{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/*Grid de todo el contenido de la pagina*/
+.contenido-de-nota{
+ padding: 5px;
+}
+#b-g-s{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+  margin: auto;
+  padding:8px;
+  gap: 8px;
+  
+}
+
+#b-g-a{
+   /*display:block;
+ box-shadow:  -1px 0px rgba(0,0,0,0.06);*/
+}
+@media only screen and (min-width: 1000px) {
+.D{
+max-width: 1024px;
+    margin: auto;
+}
+}
+/*Grid del Foooter*/
+
+#asaid{
+padding: 8px;
+}
+
+
+.grid-mas-vistos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1em;
+}
+
+/*grid cuerpo nota*/
+
+
+.grid-nota {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 1em;
+}
+
+.grid-nota-header,
+.grid-nota-footer {
+  grid-column: 1 / span 5;
+}
+
+.grid-nota-main {
+  grid-column: 1 / span 3;
+}
+
+.grid-nota-aside {
+  grid-column: span 1;
+}
+
+@media (max-width: 700px) {
+  
+  .grid-nota-main,
+  .grid-nota-aside {
+    grid-column: 1 / span 5;
+  }
+  
+}
+
+/* Demo Specific Styles */
+.grid-nota-body {
+  margin: 0 auto;
+  max-width: 63em;
+  padding: 1em 8px;
+} 
+
+.grid-nota-header,
+.grid-nota-main,
+.grid-nota-aside,
+.grid-nota-footer {
+  background: #eaeaea;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-nota-header,
+.grid-nota-footer {
+  height: 10vw;;
+}
+
+
+/* estilos typografia*/
+
+.h1nota{
+        font-size: 42px;
+        line-height: 45px;
+        font-family: 'HelveticaLTStd-LightCond';
+        margin-block-start: 0px;
+        margin-block-end: 0px; 
+}
