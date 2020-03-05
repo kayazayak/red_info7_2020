@@ -140,18 +140,8 @@ function load_tv()
 function load_twitter()
 {
     setTimeout(function(){
-		local_logger("Load TV");
-		if( 
-			!navigator.userAgent.match(/Android/i)
-			|| !navigator.userAgent.match(/webOS/i)
-			|| !navigator.userAgent.match(/iPhone/i)
-			|| !navigator.userAgent.match(/iPad/i)
-			|| !navigator.userAgent.match(/iPod/i)
-			|| !navigator.userAgent.match(/BlackBerry/i)
-			|| !navigator.userAgent.match(/Windows Phone/i)
-		){
+		local_logger("Load Twitter");
 			loadScript("https://platform.twitter.com/widgets.js", null);
-		}
         },ms_time);
 	ms_time+=500;  
 }
