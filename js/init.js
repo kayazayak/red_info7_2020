@@ -1,4 +1,6 @@
 var ms_time = 1000;
+var in_time = 500;
+var st_time = 2500;
 
 window._taboola = window._taboola || [];
 window.dataLayer = window.dataLayer || [];
@@ -107,14 +109,14 @@ function loadScripts()
     else
     {
         init_ga();
-	load_player();
-	setTimeout(function(){
+	    load_player();
+	    setTimeout(function(){
             while (functions_after_dom.length)
             {
                 functions_after_dom.shift().call();
-                ms_time+=500;
+                ms_time+=in_time;
             }
-	},1000);
+	    },st_time+in_time);
     }
 }
 
@@ -134,7 +136,7 @@ function load_tv()
 			loadScript("https://web.info7.mx/tv/embed/player.min.js", null);
 		}
         },ms_time);
-	ms_time+=500;
+	ms_time+=in_time;
 }
 
 function load_twitter()
@@ -143,7 +145,7 @@ function load_twitter()
 		local_logger("Load Twitter");
 			loadScript("https://platform.twitter.com/widgets.js", null);
         },ms_time);
-	ms_time+=500;  
+	ms_time+=in_time;  
 }
 
 function load_player()
@@ -195,5 +197,5 @@ document.addEventListener('DOMContentLoaded', function() {
     loadScript("https://www.lodelared.com/js/lazysizes.min.js", null);
     setTimeout(function(){
         loadScripts();
-    },2500);
+    },st_time);
 });
