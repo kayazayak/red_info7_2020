@@ -44,7 +44,7 @@ function init_taboola()
     }, ms_time);
 }
 
-function define_admanager_ad(name = '', sizes = [], id = '')
+function define_admanager_ad(name, sizes, id)
 {
     setTimeout(function(){ 
         if(document.getElementById(id) === null) { local_logger("define_admanager_ad | Error ID("+id+") Not Found! "); return; }
@@ -183,7 +183,7 @@ function load_player()
     }
 }
 
-function local_logger(msg='')
+function local_logger(msg)
 {
     var enabled = true;
     if(enabled)
