@@ -186,5 +186,5 @@ document.addEventListener('DOMContentLoaded', function() {
     loadScript("https://www.lodelared.com/js/lazysizes.min.js", null);
     setTimeout(function(){
         loadScripts();
-    },2000);
+    },2500);
 });
