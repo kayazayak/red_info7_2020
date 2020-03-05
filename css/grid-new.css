@@ -346,6 +346,7 @@ nav>ul>li a {
 .in {
     width: 0;
     opacity: 0;
+    display: none;
     transition: all .3s ease-out;
     border: none;
     vertical-align: middle;
@@ -354,6 +355,7 @@ nav>ul>li a {
 
 .in:focus {
     opacity: 1;
+    display: block;
     width: 125px;
 }
 
