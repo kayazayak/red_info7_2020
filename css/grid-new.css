@@ -355,7 +355,7 @@ nav>ul>li a {
 
 .in:focus {
     opacity: 1;
-    display: block;
+    display: inline-block;
     width: 125px;
 }
 
@@ -725,7 +725,7 @@ nav>ul>li a {
 
 .in:focus {
     opacity: 1;
-    display: block;
+    display: inline-block;
     width: 125px;
 }
 
@@ -940,7 +940,7 @@ nav>ul>li a {
     }
 }
 
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 
 /* CSS Document */
 
