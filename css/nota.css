@@ -11,6 +11,10 @@ input[type=checkbox]:checked ~ label ~ #div-gpt-ad-1583184436781-0{
     grid-template-rows: auto;
     grid-gap: 8px;
 }
+.alto-ad-grupo{
+    height: 35px;
+}
+
 
 #b-g-H1 {
     font-family: "FiraSans-ExtraBold";
