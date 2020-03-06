@@ -518,12 +518,11 @@ nav>ul>li a {
  width: 20px;
  height: 15px;
 }
-
-input[type=checkbox] {
-  display: none;
+.in-label  {
+    position: relative;
+    left: -17px;
+    color: gray;
 }
-
-
 
 .fixed-ad > input[type=checkbox] {
   display: none;

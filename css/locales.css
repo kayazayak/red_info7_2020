@@ -24,6 +24,8 @@
 }
 
 
+
+
 .b-g-H3 {
     font-family: "OpenSans-Bold";
     font-size: 25px;
@@ -129,6 +131,11 @@
 }
 @media (min-width: 1000px) {
 /*Modifica el cloque-pricial-home en dektop*/
+
+#ad-1-loc-1{
+    grid-row: 7/9;
+    grid-column: 1/16;
+}
 .g-h-v {
     font-family: "OpenSans-SemiBold";
     font-size: 12px;
