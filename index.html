@@ -24,11 +24,6 @@
     <!--Search Console-->
     <meta name="google-site-verification" content="9jrL3iwOdrQV_e96KR5HWn7uGCvb-GOKzaHbranCO-U" />
     <!--CSS-->
-     <!--<link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/fixed-social.css">
-    <link rel="stylesheet" href="css/fixed-ad.css">
-    <link rel="stylesheet" href="css/menu-desplegable.css">
-    <link rel="stylesheet" href="css/text-over-img.css"-->
     <link rel="stylesheet" href="css/grid-new.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="font/fonts.css">
@@ -1201,7 +1196,6 @@
 
     <script type="text/javascript">
         var region = 'nl';
-
         var functions_after_dom = [
             function() { define_admanager_ad('/21825621687/INFO7-HOME-B1-728-90', [728, 90], 'div-gpt-ad-1582932113781-0'); },
             function() { define_admanager_ad('/21825621687/Info7_Home_120x600_derecha', [728, 90], 'div-gpt-ad-1582932146198-0'); },
@@ -1214,28 +1208,11 @@
             function() { init_taboola(); },
             function() { load_tv(); }
         ];
-
         var externals = [
             "https://www.googletagmanager.com/gtag/js?id=UA-2508801-1",
             "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
         ];
-
-        if( 
-                navigator.userAgent.match(/Android/i)
-                || navigator.userAgent.match(/webOS/i)
-                || navigator.userAgent.match(/iPhone/i)
-                || navigator.userAgent.match(/iPad/i)
-                || navigator.userAgent.match(/iPod/i)
-                || navigator.userAgent.match(/BlackBerry/i)
-                || navigator.userAgent.match(/Windows Phone/i)
-        ){
-            console.log("isMobile");
-            externals = [
-                "https://www.googletagmanager.com/gtag/js?id=UA-2508801-1",
-                "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
-            ];
-        }
-	! function(e, f, u, i) {
+	    ! function(e, f, u, i) {
             if (!document.getElementById(i)) {
                 //e.async = 1;
                 e.src = u;
@@ -1243,11 +1220,8 @@
                 f.appendChild(e);
             }
         }(document.createElement('script'),
-	document.getElementsByTagName('head')[0],
-	'//web.info7.mx/npm/initJS/dist/init.js','master_loader');
+	    document.getElementsByTagName('head')[0],
+	    '//web.info7.mx/npm/initJS/dist/init.js?v=1.0','master_loader');
         </script>
 </body>
-
 </html>
-
-
