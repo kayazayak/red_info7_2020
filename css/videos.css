@@ -164,11 +164,11 @@ display: grid;
 }
 #B3{
     grid-column: 16/ 21;
-    grid-row: 3/ 5;
+    grid-row: 1/ 4;
 }
 #B4 {
   grid-column: 16/ 21;
-  grid-row: 5/ 7;
+    grid-row: 4/ 7;
 }
 
 #v1{
@@ -203,7 +203,7 @@ display: grid;
 #b-p-h-3  {
     display: grid;
     grid-template-columns: repeat(20, 45.5px);
-    grid-template-rows: 50px 400px 400px;
+    grid-template-rows: 50px 410px 410px;
     grid-gap: 8px;
     margin-bottom: 8px;
 }

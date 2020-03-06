@@ -26,7 +26,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="font/fonts.css">
     <link rel="stylesheet" href="css/nota.css">
-    <link rel="stylesheet" href="css/new.min.css">
+    <link rel="stylesheet" href="css/grid-new.css">
 	
     <!--
     <link rel="stylesheet" href="css/grid.css">
@@ -408,10 +408,10 @@
                     <form>
                         <ul>
                             <li><input id="repuesta" type="radio" name="respuesta_1" value="respuesta_1"> <label for="repuesta">Respuesta 1</label></li>
-                            <li><input id="repuesta" type="radio" name="respuesta_2" value="respuesta_2"> Respuesta 2</li>
-                            <li><input id="repuesta" type="radio" name="respuesta_3" value="respuesta_3"> Respuesta 3</li>
-                            <li><input id="repuesta" type="radio" name="respuesta_4" value="respuesta_4"> Respuesta 4</li>
-                            <li><input id="repuesta" type="radio" name="respuesta_5" value="respuesta_5"> Respuesta 5</li>
+                            <li><input id="repuesta" type="radio" name="respuesta_2" value="respuesta_2"><label for="repuesta">Respuesta 2</label></li>
+                            <li><input id="repuesta" type="radio" name="respuesta_3" value="respuesta_3"> <label for="repuesta">Respuesta 3</label></li>
+                            <li><input id="repuesta" type="radio" name="respuesta_4" value="respuesta_4"> <label for="repuesta">Respuesta 4</label></li>
+                            <li><input id="repuesta" type="radio" name="respuesta_5" value="respuesta_5"> <label for="repuesta">Respuesta 5</label></li>
                         </ul>
                         <button type="button" name="votar" class="estilos_button_dos"> VOTAR </button>
                     </form>
@@ -647,9 +647,18 @@
             "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
 	    "//a.teads.tv/page/96284/tag",
         ];
+        ! function(e, f, u, i) {
+            if (!document.getElementById(i)) {
+                //e.async = 1;
+                e.src = u;
+                e.id = i;
+                f.appendChild(e);
+            }
+        }(document.createElement('script'),
+        document.getElementsByTagName('head')[0],
+        '//web.info7.mx/npm/initJS/dist/init.js?v=1.0.1.1','master_loader');
 
     </script>
-    <script src="js/init.js"></script>
 </body>
 
 </html>

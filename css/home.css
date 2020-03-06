@@ -1,3 +1,9 @@
+input[type=checkbox]:checked ~ label ~ #div-gpt-ad-1582932423694-0{ 
+  opacity: 0;
+  height: 0;
+  display: none;
+}
+
 .parra a {
     font-size: 15px;
 }
@@ -18,16 +24,6 @@
 }
 #galera-B5{grid-column: 15/19;
     grid-row: 7/10;}
-.todito-brand-ad{
-    padding: 8px;
-    border-bottom: 2px solid #d2d0d0;
-    background: #fbfbfb;
-    background-image: url(/julian/wwwinfo7mx/img/cashlogo.png);
-    background-repeat: no-repeat;
-  background-size: 150px;
-  background-position: center; 
-}
-
 .b-g-div{
     padding: 8px;
     border-bottom: 2px solid #d2d0d0;

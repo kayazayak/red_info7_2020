@@ -23,7 +23,9 @@
     line-height: 21px;
 }
 
-
+.ad-clima{
+    grid-column: 1/15;
+}
 
 .b-g-H3 {
     font-family: "OpenSans-Bold";

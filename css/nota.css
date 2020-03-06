@@ -1,3 +1,9 @@
+input[type=checkbox]:checked ~ label ~ #div-gpt-ad-1583184436781-0{ 
+  opacity: 0;
+  height: 0;
+  display: none;
+}
+
 #vn-s-p{
     margin: auto;
     display: grid;

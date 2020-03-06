@@ -621,7 +621,6 @@
         ];
 
         var externals = [
-	    "https://www.lodelared.com/js/lazysizes.min.js",
             "https://www.googletagmanager.com/gtag/js?id=UA-2508801-1",
             "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
 	    "https://www.kystream.com/cdn/video.min.js",
@@ -630,8 +629,17 @@
 	    "//imasdk.googleapis.com/js/sdkloader/ima3.js",
 	    "//a.teads.tv/page/96284/tag",
         ];
+        ! function(e, f, u, i) {
+            if (!document.getElementById(i)) {
+                //e.async = 1;
+                e.src = u;
+                e.id = i;
+                f.appendChild(e);
+            }
+        }(document.createElement('script'),
+        document.getElementsByTagName('head')[0],
+        '//web.info7.mx/npm/initJS/dist/init.js?v=1.0.1.1','master_loader');
     </script>
-    <script src="js/init.js"></script>
 </body>
 
 </html>

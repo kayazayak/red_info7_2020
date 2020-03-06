@@ -156,8 +156,19 @@ header {
     background: -ms-linear-gradient(left, rgba( 10, 55, 125, 1) 0%, rgba( 16, 87, 197, 1) 100%);
     background: linear-gradient(to right, rgba( 10, 55, 125, 1) 0%, rgba( 16, 87, 197, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1464', endColorstr='#0071bc', GradientType=1);
-    height: 110px;
     max-width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    background-color: #2195F2;
+    z-index: 100;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 16px;
+    color: white;
+    overflow: hidden;
 }
 
 #header {
